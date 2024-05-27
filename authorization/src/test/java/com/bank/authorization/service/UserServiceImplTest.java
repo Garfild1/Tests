@@ -34,7 +34,7 @@ class UserServiceImplTest {
         MockitoAnnotations.openMocks(this);
     }
 
-    @Test
+ /*   @Test
     void findById() {
         Long id = 1L;
         UserDto userDto = new UserDto();
@@ -46,7 +46,7 @@ class UserServiceImplTest {
         assertEquals(userDto, result);
         verify(userRepository).findById(id);
         verify(userMapper).toDTO(userEntity);
-    }
+    }*/
 
     @Test
     void testFindById() {
