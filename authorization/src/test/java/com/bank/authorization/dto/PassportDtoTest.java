@@ -9,6 +9,7 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 class PassportDtoTest {
 
+
     @Test
     void testEqualsAndHashCode() {
         PassportDto passport1 = new PassportDto(1L, 123, 456789L, "Doe", "John", "Smith", "Male",

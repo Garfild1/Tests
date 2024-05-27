@@ -15,6 +15,7 @@ import static org.mockito.Mockito.*;
 @ExtendWith(MockitoExtension.class)
 class AuditControllerTest {
 
+
     @Mock
     private AuditService service;
 
